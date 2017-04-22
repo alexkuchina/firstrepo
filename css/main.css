@@ -158,10 +158,27 @@ padding-right: 8px;
 	font-size: 14px;
 }
 
+@media (max-width: 760px){
+    .search-box input {
+        width: 80%;
+    }
+}
 
 
-
-
+@media (max-width: 423px) {
+	.profile-img {
+		display: none;
+	}
+	.top-navigation li {
+		padding: 5px 0;
+	}
+	.right-site-links {
+		display: none;
+	}
+	.search-box img{
+		padding-top: 70px;
+	}
+}
 
 
 
